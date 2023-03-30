@@ -9,6 +9,7 @@
     <link rel="icon" href="./assets/images/logo.jpg" type="image/x-icon">
     <!-- Link css -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsiveMain.css">
     <!-- Link Icon -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- Link boostrap -->
@@ -66,6 +67,9 @@
             </div>
 
             <div class="right-header">
+                <div class="menu-btn">
+                    <i class='bx bx-menu'></i>
+                </div>
                 <div class="search">
                     <i class='bx bx-search'></i>
                     <input type="text" placeholder="Tìm kiếm sản phẩm?">
@@ -92,9 +96,18 @@
         <div id="content">
             <!-- Sales -->
             <div class="home-sales">
-                <h2 class="title">
-                    Danh Sách sản phẩm
-                </h2>
+                <div class="header-content">
+                    <div class="title">
+                        Danh Sách sản phẩm
+                    </div>
+                    <div class="filter-btn">
+                        <p>
+                            Lọc
+                        </p>
+                        <i class='bx bx-filter-alt'></i>
+                    </div>
+                </div>
+
                 <div class="row">
                     <div class="sale-item col-md-3 col-xs-12"> 
                         <span class="sale">-50<span>%</span></span>
@@ -424,6 +437,77 @@
         </div>
         <!-- End Footer -->
     </div>
+
+    <div class="filter-modal">
+        <div class="filter-content-modal">
+            <div class="header-filter-modal">
+                <div class="filter-title">
+                    Lọc & Sắp xếp
+                </div>
+                <div class="close-modal-btn">
+                    <p>
+                        Clear All
+                    </p>
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+            <div class="content-filter-modal">
+                <div class="filter-apply">
+                    <p>
+                        Bộ lọc được áp dụng
+                    </p>
+                    <ul>
+                        <li><i class='bx bx-x'></i>Nxb Kim Đồng</li>
+                        <li><i class='bx bx-x'></i>Nxb Hà Nội</li>
+                        <li><i class='bx bx-x'></i>20.000đ</li>
+                        <li><i class='bx bx-x'></i>20.000đ</li>
+                        <li><i class='bx bx-x'></i>20.000đ</li>
+                        <li><i class='bx bx-x'></i>20.000đ</li>
+                        <li><i class='bx bx-x'></i>20.000đ</li>
+                        <li><i class='bx bx-x'></i>20.000đ</li>
+
+                    </ul>
+                </div>
+
+                <div class="sort">
+                    Lọc
+                    <ul>
+                        <li>
+                            <p class="title-sidebar">Nhà xuất bản</p>
+                            <div class="sub-list-size">
+                                <div class="item">
+                                    <span>Nxb Kim Đồng</span>
+                                    <span>Nxb Hà Nội</span>
+                                    <span>Nxb Hồ Chí Minh</span>
+                                    <span>Nxb Moi</span>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <p class="title-sidebar">Mức giá</p>
+                            <div class="sub-list-price">
+                                <div class="item">
+                                    <span>0 - 1.000.000đ</span>
+                                    <span>1.000.000đ - 2.000.000đ</span>
+                                    <span>2.000.000đ - 5.000.000đ</span>
+                                    <span>5.000.000đ - 7.000.000đ</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-filter-modal">
+                <button class="footer-filter-btn">Áp dụng >></button>
+            </div>
+        </div>
+    </div>
+    <!-- ScrollTop -->
+    <button class="btn-scroll-top">
+        <i class='bx bx-chevron-up'></i>
+    </button>
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
