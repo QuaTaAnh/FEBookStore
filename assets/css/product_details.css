@@ -23,7 +23,7 @@
 .img-main{
     position: relative;
     max-width: 530px;
-    height: 794px;
+    height: 500px;
     cursor: pointer;
 }
 
@@ -56,7 +56,7 @@
 .list-img img{
     margin: 16px 0;
     width: 100px;
-    height: 150px;
+    height: 100px;
 }
 
 .list-img > i{
