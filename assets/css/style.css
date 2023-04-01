@@ -389,6 +389,7 @@ a{
 
 /* Footer */
 #footer {
+    height: 375px;
     margin: 60px 86px 0;
     border-top: 1px solid #ccc;
 }
